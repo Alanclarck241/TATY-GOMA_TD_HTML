@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP Entreprise - Site simple</title>
+    <meta name="description" content="Site web simple réalisé en HTML et CSS pour un travail de TP." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-block">
+        <a class="logo" href="#accueil">TP Entreprise</a>
+        <nav>
+          <a href="#services">Services</a>
+          <a href="#apropos">À propos</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="accueil">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="tag">Projet étudiant L1</p>
+            <h1>Bienvenue sur notre site simple</h1>
+            <p>
+              Ce site a été fait uniquement en HTML et CSS. Le but était de
+              créer une page claire, propre et facile à lire.
+            </p>
+            <a class="btn" href="#contact">Nous contacter</a>
+          </div>
+
+          <div class="card">
+            <h2>Ce qu’on veut montrer</h2>
+            <ul>
+              <li>Une présentation rapide du projet</li>
+              <li>Quelques services simples</li>
+              <li>Un contact clair pour finir</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <h2>Nos services</h2>
+          <div class="grid">
+            <article class="box">
+              <h3>Création de pages</h3>
+              <p>On organise le contenu de façon simple et lisible.</p>
+            </article>
+            <article class="box">
+              <h3>Design basique</h3>
+              <p>On garde un rendu sobre sans trop de complications.</p>
+            </article>
+            <article class="box">
+              <h3>Présentation propre</h3>
+              <p>Les informations sont mises en ordre pour mieux les voir.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="apropos">
+        <div class="container">
+          <h2>À propos du projet</h2>
+          <p>
+            Ce travail a été réalisé dans le cadre d’un TP. L’objectif était de
+            comprendre comment organiser une page web avec du HTML et du CSS,
+            puis la rendre utilisable.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container contact-box">
+          <h2>Contact</h2>
+          <p>Nom : Alain Berland</p>
+          <p>Email : alainberland1320@gmail.com</p>
+          <p>Lieu : Libreville, Gabon</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-block">
+        <p>© 2026 TP Entreprise - Site simple</p>
+      </div>
+    </footer>
+  </body>
+</html>
