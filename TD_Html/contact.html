@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — LaPresse Gabon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap masthead">
+      <a class="btn-abonner" href="#newsletter">S'abonner</a>
+      <p class="logo">La<span class="accent">Presse</span></p>
+      <p class="souscription">Gabon · L'information qui compte</p>
+    </div>
+    <nav class="main-nav" aria-label="Navigation principale">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="wrap contact-page">
+    <h1>Contactez-nous</h1>
+
+    <section class="flex-row contact-grid">
+      <div class="contact-card">
+        <h2>Rédaction</h2>
+        <p>contact@lapresse.gabon</p>
+      </div>
+
+      <div class="contact-card">
+        <h2>Publicité</h2>
+        <p>pub@lapresse.gabon</p>
+      </div>
+
+      <form class="contact-card form" aria-label="Formulaire contact">
+        <label for="nom">Nom</label>
+        <input id="nom" name="nom" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-bas"><span>&copy; 2026 LaPresse Gabon</span></div>
+  </footer>
+</body>
+</html>
