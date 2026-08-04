@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LibrevilleCulture — Bibliothèques</title>
+    <meta name="description" content="Présentation des bibliothèques partenaires et des abonnements LibrevilleCulture, en HTML et CSS Flexbox." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container navbar">
+        <a class="brand" href="index.html">
+          <span class="brand-circle">L</span>
+          <span class="brand-text"><strong>LibrevilleCulture</strong><span>Culture locale</span></span>
+        </a>
+        <nav class="nav-links">
+          <a href="index.html">Accueil</a>
+          <a href="evenements.html">Événements</a>
+          <a href="bibliotheques.html" class="active">Bibliothèques</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="nav-btn" href="#">Connexion</a>
+          <a class="nav-btn primary" href="#">S'inscrire</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container section-header">
+          <div>
+            <p class="section-title">Bibliothèques partenaires <img class="title-img" src="./images/libraries.jpg" alt="Image bibliothèques"></p>
+            <p class="section-text">Accédez aux bibliothèques de Libreville et profitez d'un pass unique, flexible et pratique.</p>
+          </div>
+        </div>
+
+        <div class="container card-grid">
+          <article class="card">
+            <div class="card-image">
+              <span class="card-tag">Archives</span>
+            </div>
+            <div class="card-body">
+              <h3>Bibliothèque Nationale du Gabon</h3>
+              <div class="card-meta">
+                <span>📍 Centre-Ville</span>
+                <span>📚 42 000 ouvrages</span>
+                <span>⏰ Lun–Ven 8h–18h</span>
+              </div>
+              <div class="card-footer">
+                <span class="card-price">Accès complet</span>
+                <button class="card-button">En savoir plus</button>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-image">
+              <span class="card-tag">Médiathèque</span>
+            </div>
+            <div class="card-body">
+              <h3>Médiathèque Omar Bongo</h3>
+              <div class="card-meta">
+                <span>📍 Libreville-Nord</span>
+                <span>📚 18 500 ouvrages</span>
+                <span>⏰ Lun–Sam 9h–19h</span>
+              </div>
+              <div class="card-footer">
+                <span class="card-price">Accès premium</span>
+                <button class="card-button">En savoir plus</button>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-image">
+              <span class="card-tag">Littérature</span>
+            </div>
+            <div class="card-body">
+              <h3>Bibliothèque de l'Alliance Française</h3>
+              <div class="card-meta">
+                <span>📍 Montagne Sainte</span>
+                <span>📚 12 000 ouvrages</span>
+                <span>⏰ Mar–Sam 10h–18h</span>
+              </div>
+              <div class="card-footer">
+                <span class="card-price">Accès détente</span>
+                <button class="card-button">En savoir plus</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container section-header">
+          <div>
+            <p class="section-title">Formules d'abonnement</p>
+            <p class="section-text">Choisissez la formule la plus adaptée à votre rythme de lecture et à vos envies culturelles.</p>
+          </div>
+        </div>
+
+        <div class="container pricing-grid">
+          <article class="plan">
+            <h3 class="plan-title">Découverte</h3>
+            <div class="plan-price-row">
+              <span class="plan-price">3 500</span>
+              <span class="plan-period">FCFA / mois</span>
+            </div>
+            <ul class="plan-list">
+              <li>1 bibliothèque au choix</li>
+              <li>5 emprunts simultanés</li>
+              <li>Accès lecture sur place</li>
+              <li>Newsletter culturelle</li>
+            </ul>
+            <button class="plan-cta">Choisir cette formule</button>
+          </article>
+          <article class="plan highlight">
+            <span class="plan-badge">Populaire</span>
+            <h3 class="plan-title">Cultura</h3>
+            <div class="plan-price-row">
+              <span class="plan-price">8 000</span>
+              <span class="plan-period">FCFA / mois</span>
+            </div>
+            <ul class="plan-list">
+              <li>Toutes les bibliothèques</li>
+              <li>Emprunts illimités</li>
+              <li>-10% sur les billets</li>
+              <li>Réservations prioritaires</li>
+            </ul>
+            <button class="plan-cta">Choisir cette formule</button>
+          </article>
+          <article class="plan">
+            <h3 class="plan-title">Premium</h3>
+            <div class="plan-price-row">
+              <span class="plan-price">18 000</span>
+              <span class="plan-period">FCFA / mois</span>
+            </div>
+            <ul class="plan-list">
+              <li>Accès total + invites privées</li>
+              <li>2 billets offerts / mois</li>
+              <li>Salles de travail privées</li>
+              <li>Concierge culturel dédié</li>
+            </ul>
+            <button class="plan-cta">Choisir cette formule</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container section-header">
+          <div>
+            <p class="section-title">Questions fréquentes</p>
+            <p class="section-text">Tout ce qu'il faut savoir sur le pass et l'accès aux bibliothèques de Libreville.</p>
+          </div>
+        </div>
+
+        <div class="container card-grid">
+          <article class="card">
+            <div class="card-body">
+              <h3>Comment fonctionne le pass ?</h3>
+              <p class="section-text">Après souscription, vous recevez un QR code à présenter à l'entrée de chaque bibliothèque partenaire.</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>Puis-je changer de formule ?</h3>
+              <p class="section-text">Oui, vous pouvez upgrader ou downgrader à tout moment avec effet au début du prochain mois.</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>Quels modes de paiement sont acceptés ?</h3>
+              <p class="section-text">Airtel Money, Moov Money, carte Visa/Mastercard. Paiements sécurisés.</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>La réduction événements s'applique comment ?</h3>
+              <p class="section-text">Le code est automatiquement appliqué lors de l'achat de billets avec votre pass Cultura.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-grid">
+        <div class="footer-col">
+          <strong>LibrevilleCulture</strong>
+          <p>Une vitrine responsive dédiée à la vie culturelle de Libreville.</p>
+        </div>
+        <div class="footer-col">
+          <span class="footer-col-title">Navigation</span>
+          <a href="index.html">Accueil</a>
+          <a href="evenements.html">Événements</a>
+          <a href="bibliotheques.html">Bibliothèques</a>
+        </div>
+        <div class="footer-col">
+          <span class="footer-col-title">Contact</span>
+          <span>contact@librevilleculture.ga</span>
+          <span>+241 01 23 45 67</span>
+          <span>Libreville, Gabon</span>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 LibrevilleCulture</span>
+      </div>
+    </footer>
+  </body>
+</html>
